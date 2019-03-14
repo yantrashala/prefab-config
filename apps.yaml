@@ -1,8 +1,8 @@
-Backend:
+restservice:
   - name: Microservices
     repo: github.com/yantrashala/prefabenv-defaultbuild
 
-Frontend:
+web:
   - name: React SPA (CSR)
     repo: github.com/yantrashala/prefab-ui-spa
   - name: React Universal App
