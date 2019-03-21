@@ -1,5 +1,5 @@
 build:
   - name: local (Docker)
-    repo: github.com/yantrashala/prefabenv-defaultbuild
+    repo: https://github.com/yantrashala/prefabenv-defaultbuild
   - name: k8s
-    repo: github.com/yantrashala/prefabenv-k8sbuild
+    repo: https://github.com/yantrashala/prefabenv-k8sbuild
