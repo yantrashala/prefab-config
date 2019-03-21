@@ -1,6 +1,6 @@
-restservice:
-  - name: Microservices
-    repo: https://github.com/yantrashala/prefabenv-defaultbuild
+microservice:
+  - name: Spring Boot microservice
+    repo: https://github.com/yantrashala/prefab-spring-boot
 
 web:
   - name: React SPA (CSR)
