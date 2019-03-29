@@ -3,3 +3,6 @@ build:
     repo: https://github.com/yantrashala/prefabenv-defaultbuild
   - name: k8s
     repo: https://github.com/yantrashala/prefabenv-k8sbuild
+runtime:
+  - name: local (Docker)
+    repo: https://github.com/yantrashala/prefabenv-localrun
