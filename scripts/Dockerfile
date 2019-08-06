@@ -28,5 +28,11 @@ RUN AZ_REPO=$(lsb_release -cs) && echo "deb [arch=amd64] https://packages.micros
     tee /etc/apt/sources.list.d/azure-cli.list
 
 RUN apt-get update && apt-get install -y azure-cli
+
+
+#terraform
+RUN wget https://releases.hashicorp.com/terraform/0.12.6/terraform_0.12.6_linux_amd64.zip && unzip terraform_0.12.6_linux_amd64.zip \
+    && mv terraform /usr/local/bin && rm terraform_0.12.6_linux_amd64.zip
+
 # docker run --rm -it -p9876:9876 -v `pwd`:/src ps/prefab-scripts
 CMD ["bash"]
